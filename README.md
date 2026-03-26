@@ -42,9 +42,9 @@ pip install -r requirements.txt
 python app.py
 
 7.test畫面
-![PC](https://github.com/user-attachments/assets/40474fc1-2eb9-490a-871c-8bf802d7a7d3)
-![weapon](https://github.com/user-attachments/assets/8155f2bd-5263-4741-86c3-97efdfbbd984)
-![LOUD](https://github.com/user-attachments/assets/bf516e9b-7e0c-48a3-9aca-65f392fcd567)
-![AGG](https://github.com/user-attachments/assets/ca1046ea-48d2-4fd2-8e0f-598ac3621242)
+![weapon](https://github.com/user-attachments/assets/d9dd5770-4cbc-4e9f-9a0e-e071e6b503bf)
+![LOUD](https://github.com/user-attachments/assets/cb23f6d2-9c18-497b-a398-2de98c1d1d43)
+![AGG](https://github.com/user-attachments/assets/2063b369-ef4d-490f-83ff-a57c970ef30c)
+![PC](https://github.com/user-attachments/assets/9b3270a7-883e-4523-8360-a8814129e670)
 
 本專案為結合電腦視覺與多模態分析的 AI 安全監控系統，具備即時危險偵測與警報能力。
