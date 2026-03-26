@@ -1,11 +1,50 @@
-使用方式：
-1. 把模型檔放進 models/
-   - yolov8n.pt
-   - yolov8n-pose.pt
-   - weapon_final.pt
-2. 把警報聲放進 assets/
-   - alert.wav
-3. 安裝套件：
-   pip install -r requirements.txt
-4. 執行：
-   python app.py
+#AI安全監控系統（AI Security Monitoring System）
+
+1.專案介紹
+本專案為一套即時 AI 安全監控系統，能夠在公共或個人環境中即時偵測潛在危險。
+系統整合電腦視覺、姿態辨識與聲音分析，可偵測：
+ 人物靠近
+ 武器（刀 / 槍）
+ 攻擊性行為
+ 異常巨大聲響
+當系統判斷風險時，會即時觸發警報並可透過 Telegram 發送通知。
+
+2.系統特色
+ 使用 YOLOv8 進行即時物件偵測
+ 姿態辨識分析攻擊行為
+ 聲音分貝（dB）監測異常聲響
+ 風險評分機制（Risk Scoring）
+ 智慧警報系統（避免重複觸發）
+
+3.技術架構
+ Python
+ OpenCV
+ YOLOv8（Ultralytics）
+ Flask
+ Pygame
+ Telegram Bot API
+
+4.專案結構
+AI-Security-Monitor-System/
+--app.py
+--config.py
+--monitor/
+
+--web/
+--assets/
+--requirements.txt
+--models/模型因檔案過大未上傳
+
+5.安裝方式
+pip install -r requirements.txt
+
+6.執行方式
+python app.py
+
+7.test畫面
+![PC](https://github.com/user-attachments/assets/40474fc1-2eb9-490a-871c-8bf802d7a7d3)
+![weapon](https://github.com/user-attachments/assets/8155f2bd-5263-4741-86c3-97efdfbbd984)
+![LOUD](https://github.com/user-attachments/assets/bf516e9b-7e0c-48a3-9aca-65f392fcd567)
+![AGG](https://github.com/user-attachments/assets/ca1046ea-48d2-4fd2-8e0f-598ac3621242)
+
+本專案為結合電腦視覺與多模態分析的 AI 安全監控系統，具備即時危險偵測與警報能力。
