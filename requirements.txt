@@ -1,0 +1,8 @@
+flask
+opencv-python
+numpy
+requests
+pygame
+torch
+ultralytics
+sounddevice
